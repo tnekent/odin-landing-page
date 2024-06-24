@@ -51,7 +51,7 @@ a {
 }
 
 .overview-section {
-    gap: 0px;
+    gap: 20px;
 }
 
 .overview-section p {
@@ -83,4 +83,40 @@ a {
     font-size: 17px;
     border-radius: 10px;
     border: none
+}
+
+.detailed-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailed-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.detailed-card-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.detailed-card {
+    flex: 1;
+}
+
+.detailed-card-image {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
+
+.detailed-card-subtext  {
+    text-align: center;
 }
