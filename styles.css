@@ -59,6 +59,7 @@ p {
 
 .overview-section {
     gap: 30px;
+    align-items: center;
 }
 
 
