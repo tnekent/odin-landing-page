@@ -75,14 +75,14 @@ a {
     flex: 1;
 }
 
-.overview-button {
+.overview-button, .action-button {
     padding: 8px 35px;
     background-color: #3882f6;
     color: white;
     font-weight: bold;
     font-size: 17px;
     border-radius: 10px;
-    border: none
+    border: none;
 }
 
 .detailed-section {
@@ -137,4 +137,37 @@ a {
     text-align: right;
     font-weight: bold;
     font-size: 20px;
+}
+
+.action-section {
+    /* display: flex;
+    align-items: center; */
+    padding: 100px 250px;
+    /* might be able to refactor this */
+}
+
+.action-banner {
+    flex: 1;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    min-height: 150px;
+    border-radius: 7px;
+    color: white;
+}
+
+.action-banner p {
+    margin: 0;
+}
+
+p.action-title {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.action-button {
+    border: 3px solid white;
 }
